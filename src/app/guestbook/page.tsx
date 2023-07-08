@@ -17,7 +17,7 @@ export default async function Page() {
   const entries = await getData()
 
   return (
-    <section className='py-24'>
+    <section className='p-24'>
       <div className='container'>
         <h1 className='mb-8 text-3xl font-bold'>Guestbook</h1>
 
